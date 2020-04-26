@@ -42,10 +42,10 @@ $(document).ready(function () {
 
 
    
-        //get current number of hours.
+        //current number of hours.
         var currentHour = parseInt(moment().format('HH'));
 
-        // loop over time blocks
+        // loop 
         $("textarea").each(function () {
             var blockHour = parseInt($(this).attr("name"));
             console.log( blockHour, currentHour)
